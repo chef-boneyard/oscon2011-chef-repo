@@ -1,0 +1,8 @@
+{
+  "id": "leia",
+  "ssh_keys": "ssh-rsa Invalid SSH key data for example purposes only",
+  "groups": "sysadmin",
+  "uid": 2002,
+  "shell": "\/bin\/bash",
+  "comment": "There is another"
+}
