@@ -37,5 +37,6 @@ template "/etc/ntp.conf" do
 end
 
 service "ntp" do
+  service_name node[:ntp][:service]
   action [:enable, :start]
 end
