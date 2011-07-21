@@ -10,19 +10,12 @@ Prior to this tutorial, you should have followed the installation instructions p
 You should be ready for the hands on portions of the tutorial with:
 
 * Ruby and Chef installed on your local workstation.
-* Your user private key file.
+* Your user private key file (USER.pem).
 * An organization created in the Opscode Hosted Chef server.
-* The organization validation client private key file.
+* The organization validation client private key file (ORGNAME-validator.pem)
+* Knife configuration (knife.rb)
 
-Your key files should be located in ~/.chef. This repository uses a `knife.rb` that is configured to search for them there.
-
-Environment Setup
-====
-
-Some environment variables should be exported prior to using the knife configuration in this repository.
-
-    export ORGNAME="your_organization_name"
-    export OPSCODE_USER="your_opscode_username" # if different than your local username
+You can download your user private key, organization validation key and knife configuration file from Opscode Hosted Chef. Put the files in .chef of this repository.
 
 Upload Repository
 ====
