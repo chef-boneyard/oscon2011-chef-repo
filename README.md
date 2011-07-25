@@ -25,8 +25,8 @@ Perform the following commands to upload everything in the repository to the Ops
     knife cookbook upload -a
     knife role from file base.rb
     knife data bag create users
-    knife data bag from file luke.json
-    knife data bag from file leia.json
+    knife data bag from file users luke.json
+    knife data bag from file users leia.json
 
 This is covered during the tutorial as well.
 
