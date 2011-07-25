@@ -5,3 +5,11 @@ run_list(
   "recipe[users::sysadmins]",
   "recipe[sudo]"
 )
+
+default_attributes(
+  "authorization" => {
+    "sudo" => {
+      "groups" => ['adm', 'admin', 'wheel']
+    }
+  }
+)
